@@ -16,6 +16,7 @@ export const useMutatePost = () => {
         reset()
       },
       onError: (err: any) => {
+        
         alert(err.message)
         reset()
       },
@@ -35,6 +36,7 @@ export const useMutatePost = () => {
         reset()
       },
       onError: (err: any) => {
+        console.log("errror")
         alert(err.message)
         reset()
       },
